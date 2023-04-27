@@ -14,12 +14,15 @@ def read(path: str) -> List[Dict]:
 
 def get_unique_job_types(path: str) -> List[str]:
     jobs_list = read(path)
+
     job_types = [
         job_type
         for job in jobs_list
         for job_type in job["job_type"].split(",")
     ]
+# https://www.digitalocean.com/community/tutorials/get-unique-values-from-a-list-in-python
     set_types = set(job_types)
+
     return list(set_types)
 
 
