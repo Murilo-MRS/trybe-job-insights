@@ -8,7 +8,8 @@ def get_unique_industries(path: str) -> List[str]:
     industries = [
         industry
         for job in jobs_list
-        for industry in job["industry"].split(",")
+        for industry in job["industry"].split("',")
+        if industry != ""
     ]
 
     set_industries = set(industries)
