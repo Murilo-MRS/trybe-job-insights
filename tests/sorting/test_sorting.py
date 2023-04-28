@@ -69,8 +69,6 @@ def test_sort_by_criteria(job_01, job_02, job_03):
 
     sort_by(to_sort, "min_salary")
     assert to_sort[0]["id"] == job_01["id"]
-    
-    with pytest.raises(
-        ValueError, match="invalid sorting criteria: invalid"
-    ):
+
+    with pytest.raises(ValueError, match="invalid sorting criteria: invalid"):
         sort_by(to_sort, "invalid")
