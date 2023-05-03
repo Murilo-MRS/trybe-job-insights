@@ -7,7 +7,7 @@ Projeto realizado durante módulo de Ciência da Computação do curso de desenv
 
 ![HomePage](./assets/home-page.png)
 
-Neste projeto implementei análises a partir de um conjunto de dados sobre empregos. As implementações foram incorporadas a um aplicativo Web desenvolvido com `Flask` (um framework web muito popular na comunidade `Python`). Foram feito testes para a implementação de uma análise de dados.
+Neste projeto implementei análises a partir de um conjunto de dados sobre empregos. As implementações foram incorporadas a um aplicativo Web desenvolvido com `Flask` (um framework web muito popular na comunidade `Python`). Foram feito testes utilizando `pytest` para a implementação de uma análise de dados.
 
 Os dados foram extraídos do site `Glassdoor` e obtidos através do `Kaggle`, uma plataforma que disponibliza conjuntos de dados para cientistas de dados.
 
