@@ -5,7 +5,7 @@ Projeto realizado durante módulo de Ciência da Computação do curso de desenv
 <details>
   <summary><strong>O que foi feito</strong></summary></br>
 
-![HomePage](./assets/home-page.png)
+![HomePage](./.images/job.png)
 
 Neste projeto implementei análises a partir de um conjunto de dados sobre empregos. As implementações foram incorporadas a um aplicativo Web desenvolvido com `Flask` (um framework web muito popular na comunidade `Python`). Foram feito testes utilizando `pytest` para a implementação de uma análise de dados.
 
